@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WeatherForecast</string>
+    <string name="ok_press">Ok pressed!</string>
+    <string name="ok">OK!</string>
+    <string name="ok_pressing">Okey pressed!</string>
+    <string name="textview">TextView</string>
+    <string name="ok_not_pressed">Ok not pressed</string>
+    <string name="enter_some_text">Enter some text</string>
+    <string name="filter">Filter</string>
+    <string name="nullType">(отсутствует тип)</string>
+    <string name="toFilter">Отфильтровать</string>
+    <string name="temperature">%1$s °C</string>
+</resources>
