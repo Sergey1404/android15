@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
     private fun showSnackBar(view: View) {
         viewModel.isFromDataBase.observe(this) {
             it.getContentIfNotHandled()?.let {
-                val mySnackbar = Snackbar.make(view, "Данные загружены из БД", Snackbar.LENGTH_LONG)
+                val mySnackbar = Snackbar.make(view, "Данные загружены из сети", Snackbar.LENGTH_LONG)
                 mySnackbar.show()
             }
         }
